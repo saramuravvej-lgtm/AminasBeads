@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amina's Beads ♡ Contact & Order</title>
+
+    <style>
+        body {
+            background-color: #fff1e6;
+            font-family: Arial, sans-serif;
+            color: #704b45;
+            text-align: center;
+            margin: 0;
+        }
+
+        h1 {
+            color: #b65f62;
+            font-size: 38px;
+            margin-top: 35px;
+        }
+
+        h2 {
+            color: #b65f62;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .intro {
+            margin: 20px;
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .contact-card {
+            background-color: white;
+            border: 2px solid #f0c5bd;
+            border-radius: 15px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 2px 4px 10px #e8c9c0;
+        }
+
+        .contact-card a {
+            color: #b65f62;
+            overflow-wrap: anywhere;
+        }
+
+        .order {
+            background-color: white;
+            border: 2px solid #f0c5bd;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: left;
+            box-shadow: 2px 4px 10px #e8c9c0;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 7px;
+            border: 1px solid #e8b5a9;
+            border-radius: 7px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #fffaf7;
+            color: #704b45;
+        }
+
+        textarea {
+            height: 90px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #b65f62;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 25px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #91494d;
+        }
+
+        .price-list {
+            background-color: #fffaf7;
+            border: 1px solid #f0c5bd;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: #e8b5a9;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        nav a {
+            color: #704b45;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        footer {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>♡ Contact & Order ♡</h1>
+
+    <h2>We'd Love to Hear From You!</h2>
+
+    <p class="intro">
+        Have a question, want to place an order, or need a
+        custom bracelet? You're in the right place!
+        Contact us or fill in the order form below. ♡
+    </p>
+
+    <h2>♡ Get in Touch ♡</h2>
+
+    <div class="contact">
+
+        <div class="contact-card">
+            <h2>Amina ♡</h2>
+
+            <p><b>Email:</b></p>
+            <p>
+                <a href="mailto:amina.yodgorova@akamom.org">
+                    amina.yodgorova@akamom.org
+                </a>
+            </p>
+
+            <p><b>Phone:</b></p>
+            <p>
+                <a href="tel:+992935448386">  
+                    +992 93 544 8386
+                </a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <h2>Sara ♡</h2>
+
+            <p><b>Email:</b></p>
+            <p>
+                <a href="mailto:sara.muravvej@akamom.org">
+                    sara.muravvej@akamom.org
+                </a>
+            </p>
+
+            <p><b>Phone:</b></p>
+            <p>
+                <a href="tel:+254115085555">
+                    +254 115 085 555
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+    <h2>♡ Our Bracelet Collection ♡</h2>
+
+    <div class="order">
+
+        <div class="price-list">
+            <p><b>Pink Blossom</b> — KSh 250</p>
+            <p><b>Ocean Dream</b> — KSh 300</p>
+            <p><b>Candy Crush</b> — KSh 200</p>
+            <p><b>Golden Glow</b> — KSh 350</p>
+            <p><b>Lavender Love</b> — KSh 280</p>
+        </div>
+
+        <p>
+            Prices are listed in Kenyan shillings.
+            Choose your favourite bracelet below! ♡
+        </p>
+
+    </div>
+
+    <h2>♡ Place Your Order ♡</h2>
+
+    <form class="order"
+          action="mailto:amina.yodgorova@akamom.org"
+          method="post"
+          enctype="text/plain">
+
+        <label for="customer">Your Name:</label>
+        <input type="text" id="customer" name="Customer Name"
+               placeholder="Enter your name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="Customer Email"
+               placeholder="Enter your email" required>
+
+        <label for="phone">Your Phone Number:</label>
+        <input type="tel" id="phone" name="Customer Phone"
+               placeholder="Enter your phone number" required>
+
+        <label for="product">Choose Your Bracelet:</label>
+        <select id="product" name="Bracelet" required>
+            <option value="">-- Select a bracelet --</option>
+            <option value="Pink Blossom - KSh 250">
+                Pink Blossom — KSh 250
+            </option>
+            <option value="Ocean Dream - KSh 300">
+                Ocean Dream — KSh 300
+            </option>
+            <option value="Candy Crush - KSh 200">
+                Candy Crush — KSh 200
+            </option>
+            <option value="Golden Glow - KSh 350">
+                Golden Glow — KSh 350
+            </option>
+            <option value="Lavender Love - KSh 280">
+                Lavender Love — KSh 280
+            </option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="Quantity"
+               min="1" max="20" value="1" required>
+
+        <label for="size">Preferred Bracelet Size:</label>
+        <select id="size" name="Bracelet Size" required>
+            <option value="">-- Choose a size --</option>
+            <option value="15 cm">15 cm</option>
+            <option value="16 cm">16 cm</option>
+            <option value="17 cm">17 cm</option>
+            <option value="18 cm">18 cm</option>
+            <option value="Custom size">Custom size</option>
+        </select>
+
+        <label for="custom">Custom Requests (Optional):</label>
+        <textarea id="custom" name="Special Requests"
+                  placeholder="Tell us your preferred colours, beads or custom size! ♡"></textarea>
+
+        <label for="delivery">Preferred Delivery or Collection:</label>
+        <select id="delivery" name="Delivery Preference" required>
+            <option value="">-- Choose an option --</option>
+            <option value="Collection">Collection</option>
+            <option value="Delivery - details to be confirmed">
+                Delivery (details to be confirmed)
+            </option>
+        </select>
+
+        <p>
+            ♡ We'll confirm your order and the final cost
+            before it is completed.
+        </p>
+
+        <button type="submit">♡ Send My Order ♡</button>
+
+    </form>
+
+    <nav>
+        <a href="Homepage.HTML">Home</a>
+        ♡
+        <a href="In Page Navigation Menu.HTML">Navigation</a>
+        ♡
+        <a href="Products.HTML">Products</a>
+        ♡
+        <a href="Contact&amp;Order Page.HTML">Contact &amp; Order</a>
+        ♡
+        <a href="About us.HTML">About Us</a>
+    </nav>
+
+    <footer>
+        <p>Thank you for supporting Amina's Beads! ♡</p>
+        <p>Handmade with love, just for you.</p>
+    </footer>
+
+</body>
+</html>
